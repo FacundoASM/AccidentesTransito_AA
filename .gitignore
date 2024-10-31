@@ -1,1 +1,14 @@
+# Ignoramos el ambiente virtual para faculitar la carga de archivos
 venv/
+
+# Modo de instalación:
+
+# -- Inicializar el ambiente virtual --
+#
+# .\venv\Scripts\activate
+#
+
+# -- Instalación de las librerías en el venv (Terminal) --
+#
+# pip install -r .\requirements.txt
+#
