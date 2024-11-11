@@ -8,20 +8,37 @@
 
 ## Aprendizaje Automático.
 Autor: Salinas Facundo
-# Predicción de ocurrencia de accidentes de tránsito en Tierra del Fuego.
+
+# **Predicción de ocurrencia de accidentes de tránsito en Tierra del Fuego.**
+
 Video explicativo del proyecto.
-(LINK)
+<p align="left">
+    <a href="https://1drv.ms/v/s!AmapDvNaA28hhqUCf72tKI4toVVE1w?e=wvcQ1n">
+    <img src="https://img.shields.io/badge/VIDEO-%20blue?style=for-the-badge&logo=icloud&logoColor=blue&logoSize=auto&label=OneDrive&labelColor=gray" alt="video" />
+    </a>
+</p>
 
 ---
+# **Predictive Modeling of Traffic Accidents in Tierra del Fuego** - Insights from Geographic, Temporal, and Accident Type Variables
+
+<p align="justify">
+This study explores the development of a machine learning model designed to predict traffic accidents in Tierra del Fuego, where harsh environmental conditions significantly affect road safety. The model is trained on historical data from 2009 to 2023, which includes variables such as accident type, geographic area, and seasonal trends. The results suggest that the model can accurately forecast accident occurrence, allowing authorities to anticipate high-risk scenarios and implement preventive measures that may reduce accident frequency and severity. Consequently, this approach could enhance public safety by targeting high-risk areas and times for intervention. By leveraging such predictive capabilities, local agencies would be able to optimize resource allocation and improve road infrastructure planning. The potential benefits of this model are highlighted in its capacity to support safety strategies and reduce accident-related impacts. The study demonstrates the potential benefits of integrating machine learning models into regional safety planning, providing a valuable tool for addressing one of the province’s most pressing public safety challenges. Future research could refine the model further to increase its predictive accuracy.
+</p>
 
 # Objetivo del modelo.
+<p align="justify">
 El objetivo es desarrollar un modelo de Aprendizaje Automático que permita predecir la ocurrencia de accidentes de tránsito en la provincia de Tierra del Fuego, basándonos en variables como la zona de ocurrencia (rural o urbana), el tipo de accidente (hecho simple, con lesiones, o mortal), y los factores temporales (mes, año). Este modelo podrá ser utilizado por las autoridades locales para anticiparse a situaciones de riesgo y adoptar medidas preventivas.
+</p>
 
 # Relevancia local.
+<p align="justify">
 Este problema es de suma importancia para Tierra del Fuego, ya que las condiciones climáticas extremas y la geografía de la región aumentan el riesgo de accidentes viales, especialmente en las áreas rurales. La identificación de patrones y factores de riesgo mediante técnicas de Aprendizaje Automático puede ayudar a las autoridades locales a diseñar estrategias de prevención más efectivas. Además, contribuiría a la toma de decisiones en cuanto a inversiones en infraestructura y educación vial.
+</p>
 
 # Razones para elegir el problema.
+<p align="justify">
 Elegí este problema porque tiene un impacto directo en la vida de las personas que residen en la provincia, y porque los accidentes de tránsito son una problemática prevenible si se cuentan con los datos y análisis correctos. Además, la disponibilidad de un dataset extenso y detallado sobre los accidentes en la región nos brinda una excelente oportunidad para aplicar técnicas de modelado predictivo y análisis de datos.integrador para mejorar la salud poblacional.
+</p>
 
 ---
 
