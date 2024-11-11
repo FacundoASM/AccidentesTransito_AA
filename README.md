@@ -1,6 +1,7 @@
 <p align="center">
-    <img src="resources\Img\Encabezado.jpg">Encabezado</img>
+    <img src="resources\Img\Encabezado.jpg"></img>
 </p>
+
 ## *Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial.*
 ***Politécnico Malvinas Argentinas.***
 
