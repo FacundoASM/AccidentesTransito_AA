@@ -11,14 +11,26 @@ Autor: Salinas Facundo
 
 # **Predicción de ocurrencia de accidentes de tránsito en Tierra del Fuego.**
 
+<p align="left">
+    <a href="https://github.com/crmne/cookiecutter-modern-datascience.git">
+    <img src="https://img.shields.io/badge/cookiecutter-link_a_la_plantilla-black?style=for-the-badge&logo=cookiecutter&logoColor=white&logoSize=auto&labelColor=%23D4AA00" />
+    </a>
+</p>
+
+[link al cookiecutter]: <> (https://github.com/crmne/cookiecutter-modern-datascience.git)
+
 Video explicativo del proyecto.
+
 <p align="left">
     <a href="https://1drv.ms/v/s!AmapDvNaA28hhqUCf72tKI4toVVE1w?e=wvcQ1n">
-    <img src="https://img.shields.io/badge/VIDEO-%20blue?style=for-the-badge&logo=icloud&logoColor=blue&logoSize=auto&label=OneDrive&labelColor=gray" alt="video" />
+    <img src="https://img.shields.io/badge/OneDrive-Link_al_video-black?style=for-the-badge&logo=icloud&logoColor=white&logoSize=auto&labelColor=blue" />
     </a>
 </p>
 
 ---
+
+*abstract*
+
 # **Predictive Modeling of Traffic Accidents in Tierra del Fuego** - Insights from Geographic, Temporal, and Accident Type Variables
 
 <p align="justify">
@@ -49,7 +61,7 @@ Elegí este problema porque tiene un impacto directo en la vida de las personas 
   </a>
 </p>
 
-El dataset que utilizaré contiene información de accidentes de tránsito en Tierra del Fuego desde enero de 2009 hasta 2023, con cobertura geográfica en las localidades de Ushuaia, Río Grande, Tolhuin, y un total provincial. Las variables principales incluyen:
+El dataset que utilizaré fué obtenido del sitio web del IPIEC, el cual es un centro de datos. Esta base de datos específica contiene información de accidentes de tránsito en Tierra del Fuego desde enero de 2009 hasta 2023, con cobertura geográfica en las localidades de Ushuaia, Río Grande, Tolhuin, y un total provincial. Las variables principales incluyen:
 
 1. Accidentes de tránsito (hechos): Colisiones o incidentes en vías públicas o privadas.
 
@@ -60,6 +72,14 @@ El dataset que utilizaré contiene información de accidentes de tránsito en Ti
 4. Hechos por zona de ocurrencia: Clasificación de los accidentes en zonas urbanas o rurales.
 
 La base de datos es mensual y cuenta con una cobertura temporal de 14 años, lo que garantiza una amplia cantidad de instancias y una buena representatividad para entrenar y evaluar modelos predictivos.
+
+La data del proyecto está dividida en 3 segmentos principales:
+
+- **0_raw:** Contiene la base de datos original sin modificar
+
+- **1_iterim:** Contiene el dataset organizado en forma de dataframe, solo los hechos en Rio Grande.
+
+- **2_processed:** Contiene el dataset ya limpio para la implementación del modelo
 
 # Lenguajes y herramientas
 <div id="header" align="left">
