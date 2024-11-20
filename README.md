@@ -13,7 +13,7 @@ Autor: Salinas Facundo
 
 <p align="left">
     <a href="https://github.com/crmne/cookiecutter-modern-datascience.git">
-    <img src="https://img.shields.io/badge/cookiecutter-link_a_la_plantilla-black?style=for-the-badge&logo=cookiecutter&logoColor=white&logoSize=auto&labelColor=%23D4AA00" />
+    <img src="https://img.shields.io/badge/CCMDS-Project%20template-328F97?logo=cookiecutter" />
     </a>
 </p>
 
@@ -22,7 +22,7 @@ Autor: Salinas Facundo
 Video explicativo del proyecto.
 
 <p align="left">
-    <a href="https://1drv.ms/v/s!AmapDvNaA28hhqUCf72tKI4toVVE1w?e=wvcQ1n">
+    <a href="https://1drv.ms/v/s!AmapDvNaA28hhqY1ZPQSe9WkcoIaHg?e=grfgoH">
     <img src="https://img.shields.io/badge/OneDrive-Link_al_video-black?style=for-the-badge&logo=icloud&logoColor=white&logoSize=auto&labelColor=blue" />
     </a>
 </p>
@@ -127,3 +127,75 @@ La data del proyecto está dividida en 3 segmentos principales:
     ├── venv               <- Ambiente virtual.
     │
     └── resorces           <- Archivos para la presentación.
+
+
+## Requisitos de Instalación
+
+1. Python 3.8+
+2. Dependencias:
+```bash
+pip install -r requirements.txt
+```
+
+## Dependencias Principales
+
+pandas==2.0.0
+numpy==1.24.3
+scikit-learn==1.2.2
+matplotlib==3.7.1
+seaborn==0.12.2
+
+## Uso Rápido
+
+### 1. Clona el repositorio
+```bash
+git clone https://github.com/[usuario]/accidentes_tierra_fuego.git
+cd accidentes_tierra_fuego
+```
+
+### 2. Crea y activa el entorno virtual
+```bash
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+.\venv\Scripts\activate     # Windows
+```
+
+### 3. Instala dependencias
+```bash
+pip install -r requirements.txt
+```
+
+# Ejemplo de uso del modelo.
+```bash
+import pickle
+
+# Cargar modelo
+with open('models/modelo_final_accidentes.pkl', 'rb') as f:
+    modelo_info = pickle.load(f)
+modelo = modelo_info['modelo']
+features = modelo_info['features']
+
+# Datos de ejemplo
+datos_ejemplo = {
+    'Año': 2024,
+    'Mes': 7,
+    'HechosMortales': 0,
+    'HechosConLesiones': 9,
+    'Lesionados': 25,
+    'HechosRurales': 1
+}
+
+# Realizar predicción
+prediccion = modelo.predict(X_pred)
+```
+# Métricas del Modelo
+
+>- R2 Score: 0.86
+>- RMSE: 45.63
+>- MAE: 35.59
+
+# Contribuciones
+Pull requests son bienvenidos. Para cambios mayores, por favor abra un issue primero.
+
+# Licencia
+MIT
