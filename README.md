@@ -52,6 +52,10 @@ Este problema es de suma importancia para Tierra del Fuego, ya que las condicion
 Elegí este problema porque tiene un impacto directo en la vida de las personas que residen en la provincia, y porque los accidentes de tránsito son una problemática prevenible si se cuentan con los datos y análisis correctos. Además, la disponibilidad de un dataset extenso y detallado sobre los accidentes en la región nos brinda una excelente oportunidad para aplicar técnicas de modelado predictivo y análisis de datos.integrador para mejorar la salud poblacional.
 </p>
 
+# Pregunta a responder.
+
+¿Es posible pronosticar la ocurrencia de accidentes en la ciudad de Rio Grande?
+
 ---
 
 # Dataset
