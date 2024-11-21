@@ -12,7 +12,7 @@ Autor: Salinas Facundo
 # **Predicción de ocurrencia de accidentes de tránsito en Tierra del Fuego.**
 
 <p align="left">
-    <a href="https://github.com/crmne/cookiecutter-modern-datascience.git">
+    <a href="https://github.com/crmne/cookiecutter-modern-datascience.git" target="_blank">
     <img src="https://img.shields.io/badge/CCMDS-Project%20template-328F97?logo=cookiecutter" />
     </a>
 </p>
@@ -22,10 +22,14 @@ Autor: Salinas Facundo
 Video explicativo del proyecto.
 
 <p align="left">
-    <a href="https://1drv.ms/v/s!AmapDvNaA28hhqY1ZPQSe9WkcoIaHg?e=grfgoH">
-    <img src="resources/Video_del_proyecto.mp4" />
+    <a href="https://github.com/FacundoASM/AccidentesTransito_AA/tree/main/resources" target="_blank">
+    <img src="https://img.shields.io/badge/Video_del_proyecto-click_on-red?style=for-the-badge&logo=github&logoColor=white&logoSize=auto" />
     </a>
 </p>
+
+En caso de no poder abrir el link, dirigirse a:
+
+        AccidentesTransito_AA => resources => Video_del_proyecto.mp4
 
 ---
 
