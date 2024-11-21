@@ -1,3 +1,3 @@
-# Base de datos
+# AccidentesTransito_AA - Interim Data
 
-Se tomó el archivo .xlsx original y se utilizaron únicamente los datos de Rio Grande, exportando la base de datos a .CSV para su posterior uso
+Intermediate data that has been transformed.
