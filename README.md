@@ -23,7 +23,7 @@ Video explicativo del proyecto.
 
 <p align="left">
     <a href="https://1drv.ms/v/s!AmapDvNaA28hhqY1ZPQSe9WkcoIaHg?e=grfgoH">
-    <img src="https://img.shields.io/badge/OneDrive-Link_al_video-black?style=for-the-badge&logo=icloud&logoColor=white&logoSize=auto&labelColor=blue" />
+    <img src="resources/Video_del_proyecto.mp4" />
     </a>
 </p>
 
